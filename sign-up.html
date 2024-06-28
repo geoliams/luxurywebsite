@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up or join</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        form.sign-up {
+            border-color: black;
+            float: left;
+        }
+        
+        #h3 {
+            color: cyan;
+            font-size: larger;
+        }
+        
+        .sign-in {
+            float: left;
+        }
+        
+        .nav {
+            float: left;
+            border-color: black;
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="image/logo.jpeg" height="130" width="150">
+    </div>
+    <nav class="menus">
+
+        <ul class="link">
+            <a class="text" href="./index.html">Home</a>
+            <a class="text" href="./career.html">Careers</a>
+            <a class="text" href="./sign-up.html">Sign Up</a>
+            <a class="text" href="./gallery.html">Gallery</a>
+        </ul>
+    </nav>
+    <h2>Sign up or join</h2>
+    <p>Sign up or join Luxury Family for instant deliveries, bookings and much more.</p>
+    <div class="container">
+        <form action="sign-up.php" method="post" class="sign-up">
+            <h3>Sign Up Form</h3>
+            <div class="sign-up">
+                <p>Full name</p><input type="text" name="fullname">
+                <p>E-mail</p><input type="email" name="email">
+                <p>Telephone</p><input type="tel" name="telephone">
+                <P>Password</P><input type="password" name="password">
+                <p><input type="checkbox">Do you agree to the terms and policies.</p>
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+    <div class="sign-in">
+        <h3>Or</h3>
+        <div class="container">
+            <div class="card">
+                <h2 style="background-color: aquamarine;">Already have an account </h2> <a id="h3" href="sign-up.html" color="">Sign-in</a>
+                <form action="./sign-in.php" method="post">
+                    <p>E-mail</p><input name="email" type="email ">
+                    <p>Password</p><input name="password" type="password ">
+                    <input class="submit_btn" type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div style="padding-top: 450px;">
+        <h4>FOR BOOKINGS CONTACT US AT:</h4>
+        <p>E-mail:
+            <a mailto:luxuryhotel@gmail.com>luxuryhotel@gmail.co.ug</a>
+        </p>
+        <p>Contact: +256 414 287 267</p>
+        <a href="facebook.com/"><img width="80" src="image/facebook.jpeg" alt="facebook account"></a>
+        <a href="instagram.com/"><img src="image/instagram.jpeg" width="140" alt="instagram account"></a>
+        <a href="x.com/"><img src="image/x.jpeg" alt="x account" width="79px"></a>
+        <a href="tiktok.com/"><img src="image/tiktok.jpeg" width="120" alt="tiktok account"></a>
+    </div>
+</body>
+
+</html>

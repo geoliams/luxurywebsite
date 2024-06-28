@@ -1,0 +1,99 @@
+body {
+    background-origin: border-box;
+    background-color: cornflowerblue;
+    padding: 10px 10px 10px 10px;
+    /* background-image: url(image/beach.webp);
+    background-repeat: no-repeat;
+    background-position: 100%100% !important; */
+}
+
+.services {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    color: rgb(4, 8, 0);
+}
+
+#txt {
+    text-align: center;
+    font-size: 45px;
+}
+
+.address {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+nav {
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-size: auto;
+}
+
+.logo {
+    height: 3px;
+    width: 100px;
+    padding-bottom: 150px;
+}
+
+.link {
+    display: inline-block;
+    list-style: none;
+}
+
+.text {
+    text-decoration: none;
+    font-size: x-large;
+    border: 1px solid black !important;
+    margin: 10px 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+    background-color: rgb(255, 255);
+}
+
+.gallery {
+    border: 2px solid rgb(77, 8, 29);
+    display: block;
+}
+
+.gallery_item {
+    width: 49%;
+    border: 2px solid rgb(124, 45, 45);
+    display: inline-block;
+    height: 300px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery_item img:hover {
+    border: 2px dashed green;
+}
+
+.gallery_item:hover div {
+    display: block;
+}
+
+.gallery_item:hover {
+    position: relative;
+}
+
+.gallery_item div {
+    display: none;
+}
+
+.sign-in {
+    padding-left: 200px;
+    margin: 10px10px 0;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+}
