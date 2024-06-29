@@ -25,6 +25,7 @@ $resume = $_POST['resume'];
 
 $sql = "INSERT INTO `careertable`(`ID`, `FULLNAME`, `EMAIL`, `POSITION`, `TELEPHONE`, `RESUME`) 
 VALUES ('".$id."','".$name."','".$email."','".$position."','".$telephone."','".$resume."')";
+//check whether data has been captured 
 
  if ($connection->query($sql)=== true){
      echo "New record created successfully";
